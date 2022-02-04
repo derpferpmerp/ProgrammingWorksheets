@@ -10,6 +10,7 @@ Written because Danny is an *idiot*
   For Example, `a = True if 4 == 5 else False`, `a` will then equal `False`<br>
 
 2. Explain how `x=x+1` can happen in programming:<br>
+
 ```py
 # This:
 x = x + 1
