@@ -70,38 +70,38 @@ print("Average Temperature:", averageTemp)
 ~~~
 
 2. Name Parser:
-```py
+~~~py
 NAME = input("What is your Name? : ")
 print(f"Hello, {NAME[1:-1]}. Have a nice day!")
-```
+~~~
 
 ### Worksheet #5
 1) b, Processing <br>
 2) c <br>
 3) <br>
 
-```py
+~~~py
 # In Python, a conditional statement is structured as such:
 if ( SOME_BOOLEAN ):
   DO_SOMETHING()
 # As stated, the condition inside of the "if" statement is SOME_BOOLEAN,
 # Which clearly would have the type "bool". A boolean can hold 2 values,
 # True, or False. Thus we are checking the truth value of the Boolean.
-```
+~~~
 4) c
 5) b and c
 
 ### Python Exercises
 1. William Shakespeare:<br>
-```py
+~~~py
 name = input("What is your name? : ")
 
 if name == "William Shakespeare": print("William, would you write me a sonnet?")
 print("Have a nice day.")
-```
+~~~
 
 2. Age Detector<br>
-```py
+~~~py
 def parseAge(age):
     if age <= 16:
         print("Be Patient.")
@@ -132,10 +132,10 @@ def parseAge(age):
 AGE = input("How Old are you? : ")
 AGE = int(AGE)
 parseAge(AGE)
-```
+~~~
 
 3. Weather Modulus<br>
-```py
+~~~py
 temp = input("Enter current temperature:")
 temp = int(temp)
 if temp < 0: print("I have icicles in my nose.")
@@ -144,7 +144,7 @@ elif temp >= 33 and temp <= 60: print("Bundle up, it\'s cold outside.")
 elif temp >= 61 and temp <= 75: print("Spring is in the air!")
 elif temp >= 76 and temp <= 95: print("Let\'s go to the beach!")
 elif temp > 96: print("Stay in the AC today.")
-```
+~~~
 
 
 
