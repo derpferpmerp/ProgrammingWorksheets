@@ -9,8 +9,7 @@ Written because Danny is an *idiot*
   (**b**) `==`: The Logical Comparison Operator, returns a boolean<br>
   For Example, `a = True if 4 == 5 else False`, `a` will then equal `False`<br>
 
-2. Explain how `x=x+1` can happen in programming:<br>
-
+2. Explain how x=x+1 can happen in programming:<br>
 ~~~py
 # This:
 x = x + 1
