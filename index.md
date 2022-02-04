@@ -75,10 +75,11 @@ NAME = input("What is your Name? : ")
 print(f"Hello, {NAME[1:-1]}. Have a nice day!")
 ```
 
-### Workshet #5
-1) b, Processing
-2) c
-3)
+### Worksheet #5
+1) b, Processing <br>
+2) c <br>
+3) <br>
+
 ```py
 # In Python, a conditional statement is structured as such:
 if ( SOME_BOOLEAN ):
@@ -91,7 +92,7 @@ if ( SOME_BOOLEAN ):
 5) b and c
 
 ### Python Exercises
-1. William Shakespeare:
+1. William Shakespeare:<br>
 ```py
 name = input("What is your name? : ")
 
@@ -99,7 +100,7 @@ if name == "William Shakespeare": print("William, would you write me a sonnet?")
 print("Have a nice day.")
 ```
 
-2. Age Detector
+2. Age Detector<br>
 ```py
 def parseAge(age):
     if age <= 16:
@@ -133,7 +134,7 @@ AGE = int(AGE)
 parseAge(AGE)
 ```
 
-3. Weather Modulus
+3. Weather Modulus<br>
 ```py
 temp = input("Enter current temperature:")
 temp = int(temp)
