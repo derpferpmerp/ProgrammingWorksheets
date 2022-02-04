@@ -9,7 +9,7 @@ Written because Danny is an *idiot*
   (**b**) `==`: The Logical Comparison Operator, returns a boolean<br>
   For Example, `a = True if 4 == 5 else False`, `a` will then equal `False`<br>
 
-2. Explain how `x=x+1` can happen in programming:
+2. Explain how `x=x+1` can happen in programming:<br>
 ```py
 # This:
 x = x + 1
@@ -25,7 +25,7 @@ A += 1
 # A is now equal to 4 + 1, or 5
 ```
 
-3. What is the return type of a user input?
+3. What is the return type of a user input?<br>
 ```py
 # The Return Type is going to be a string.
 # We Can verify By Doing This:
@@ -35,7 +35,7 @@ print(help(input))
 # The keyword is "string"
 ```
 
-4. Can you change the data type from an input?
+4. Can you change the data type from an input?<br>
 ```py
 # Yes, we can use Python's implementation of casting to do such.
 # Here are some examples
@@ -47,13 +47,13 @@ parsed_int = int(INPUT)
 ```
 
 ### Python Exercises
-1. Temperature Question:
+1. Temperature Question:<br>
 ```py
 DATA = {k:float(input(f"Enter the {k} temperature: ")) for k in ["first", "second", "third"]}
 averageTemp = sum(list(DATA.values())) / 3
 print(f"Average Temperature: {averageTemp}")
 ```
-Or the Expanded Version:
+Or the Expanded Version:<br>
 ```py
 temp1 = input("Enter the first temperature")
 temp2 = input("Enter the second temperature")
